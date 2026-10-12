@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d6efd">
+  <title>IJ Mobile Store | Mobile Accessories</title>
+  <meta name="description" content="Shop mobile chargers, handsfree and power banks at IJ Mobile Store. Easy WhatsApp orders and Cash on Delivery in Pakistan.">
+  <style>
+    :root{--blue:#0d6efd;--blue2:#2196f3;--ink:#14213d;--muted:#65738b;--bg:#f5f8ff;--white:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg)}
+    a{text-decoration:none;color:inherit}.topbar{background:#071b3b;color:#eaf2ff;text-align:center;padding:9px 14px;font-size:13px}
+    header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 4px 18px #12264a12}
+    .nav{max-width:1160px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:21px;letter-spacing:-.5px}.logo{width:44px;height:44px;border-radius:13px;background:linear-gradient(135deg,var(--blue),#53b6ff);display:grid;place-items:center;color:white;font-weight:900;box-shadow:0 7px 16px #0d6efd3b}
+    nav{display:flex;gap:25px;align-items:center;font-size:14px;font-weight:700;color:#44516a}nav a:hover{color:var(--blue)}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:12px;padding:12px 18px;background:var(--blue);color:#fff;font-weight:700;cursor:pointer;transition:.2s}.nav-cta:hover,.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px #0d6efd38}
+    .hero{background:linear-gradient(120deg,#0b5fe8 0%,#1685f7 55%,#4cb9ff 100%);color:#fff;overflow:hidden}
+    .hero-inner{max-width:1160px;margin:auto;padding:76px 22px 82px;display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}
+    .eyebrow{display:inline-block;padding:8px 12px;background:#ffffff20;border:1px solid #ffffff35;border-radius:30px;font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase}
+    h1{font-size:clamp(38px,5vw,62px);line-height:1.06;letter-spacing:-2px;margin:19px 0 18px}.hero p{max-width:530px;color:#e9f4ff;font-size:17px;line-height:1.7;margin:0 0 26px}
+    .hero-buttons{display:flex;gap:12px;flex-wrap:wrap}.btn-light{background:white;color:#0757ce}.btn-outline{background:#ffffff12;border:1px solid #ffffff70}
+    .hero-art{min-height:280px;display:grid;place-items:center;position:relative}.circle{width:min(330px,80vw);height:min(330px,80vw);border-radius:50%;background:#ffffff1b;border:1px solid #ffffff35;display:grid;place-items:center;position:relative}
+    .phone{width:140px;height:235px;border:7px solid #15233c;border-radius:25px;background:linear-gradient(145deg,#f9fcff,#dcecff);box-shadow:0 24px 40px #06265b40;transform:rotate(-10deg);display:flex;align-items:center;justify-content:center;color:#0d6efd;font-size:42px;font-weight:900}
+    .floating{position:absolute;background:white;color:var(--ink);padding:12px 16px;border-radius:15px;box-shadow:0 12px 28px #06265b30;font-size:13px;font-weight:800}.float-one{top:38px;left:0}.float-two{bottom:30px;right:0}
+    section{max-width:1160px;margin:auto;padding:65px 22px}.section-head{text-align:center;margin-bottom:32px}.kicker{color:var(--blue);font-weight:800;text-transform:uppercase;font-size:12px;letter-spacing:1.5px}.section-head h2{font-size:clamp(27px,4vw,38px);letter-spacing:-1px;margin:10px 0}.section-head p{color:var(--muted);margin:0}
+    .products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.product{background:#fff;border:1px solid #e7edf8;border-radius:20px;overflow:hidden;box-shadow:0 8px 28px #152b4a08;transition:.25s}.product:hover{transform:translateY(-5px);box-shadow:0 16px 34px #152b4a12}
+    .product-visual{height:205px;display:grid;place-items:center;background:linear-gradient(145deg,#eef5ff,#f9fbff);position:relative}.product-visual .emoji{font-size:76px;filter:drop-shadow(0 12px 8px #0c2a4b18)}.tag{position:absolute;top:14px;left:14px;background:#e1f8ec;color:#12804a;border-radius:20px;padding:6px 10px;font-size:11px;font-weight:800}
+    .product-body{padding:20px}.product h3{margin:0 0 8px;font-size:19px}.product p{color:var(--muted);font-size:13px;line-height:1.6;min-height:40px;margin:0 0 16px}.price-row{display:flex;align-items:center;justify-content:space-between;gap:10px}.price{font-size:21px;font-weight:900;color:var(--blue)}.buy{padding:10px 13px;border-radius:10px;font-size:13px;white-space:nowrap}
+    .features{background:#fff;border-top:1px solid #e9eef8;border-bottom:1px solid #e9eef8}.features-inner{max-width:1160px;margin:auto;padding:28px 22px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.feature{display:flex;align-items:center;gap:13px;padding:10px}.feature-icon{width:48px;height:48px;flex-shrink:0;border-radius:14px;background:#eaf3ff;display:grid;place-items:center;font-size:23px}.feature strong{display:block;font-size:15px;margin-bottom:5px}.feature span{font-size:12px;color:var(--muted)}
+    .about{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}.about-card{background:linear-gradient(135deg,#0d6efd,#39aaff);color:#fff;border-radius:22px;padding:30px}.about-card h3{font-size:26px;margin:0 0 12px}.about-card p{line-height:1.8;color:#edf7ff}.about-list{list-style:none;padding:0;margin:20px 0 0;display:grid;gap:12px}.about-list li:before{content:"✓";font-weight:900;margin-right:10px;color:#b9ffda}
+    .contact{background:#071b3b;color:#fff;border-radius:24px;padding:38px;text-align:center}.contact h2{font-size:32px;margin:0 0 12px}.contact p{color:#c8d7f1;line-height:1.7;margin:0 auto 22px;max-width:550px}.contact .btn{background:#20b65a}
+    footer{background:#06152e;color:#b9c8e2;text-align:center;padding:24px 16px;font-size:12px}footer strong{color:white}
+    @media(max-width:760px){.nav{padding:12px 16px}nav{display:none}.brand{font-size:18px}.nav-cta{padding:10px 12px;font-size:12px}.hero-inner{grid-template-columns:1fr;padding:55px 20px 45px}.hero-art{min-height:250px}.products{grid-template-columns:1fr;max-width:430px;margin:auto}.features-inner{grid-template-columns:1fr;gap:5px}.about{grid-template-columns:1fr}section{padding:50px 18px}.contact{padding:28px 20px}.product-visual{height:190px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">🚚 Delivery available in Pakistan · 💵 Cash on Delivery (where available)</div>
+  <header><div class="nav">
+    <a class="brand" href="#home"><span class="logo">IJ</span><span>IJ Mobile Store</span></a>
+    <nav><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+    <a class="nav-cta" href="https://wa.me/923153528598" target="_blank" rel="noopener">WhatsApp Order ↗</a>
+  </div></header>
+  <main>
+    <div class="hero" id="home"><div class="hero-inner">
+      <div><span class="eyebrow">Your everyday tech store</span><h1>Smart Accessories.<br>Better Prices.</h1>
+        <p>Discover useful mobile accessories for everyday life. Simple ordering, friendly service, and great value at IJ Mobile Store.</p>
+        <div class="hero-buttons"><a class="btn btn-light" href="#products">Shop Products ↓</a><a class="btn btn-outline" href="https://wa.me/923153528598?text=Assalam-o-Alaikum%2C%20I%20want%20to%20ask%20about%20your%20products." target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+      </div>
+      <div class="hero-art"><div class="circle"><div class="phone">IJ</div><div class="floating float-one">⚡ Fast Charging</div><div class="floating float-two">🎧 Everyday Audio</div></div></div>
+    </div></div>
+    <section id="products"><div class="section-head"><span class="kicker">Shop our collection</span><h2>Popular Products</h2><p>Choose your accessory and order directly on WhatsApp.</p></div>
+      <div class="products">
+        <article class="product"><div class="product-visual"><span class="tag">Best Seller</span><span class="emoji">🔌</span></div><div class="product-body"><h3>Fast Charger</h3><p>A handy charging option for your everyday mobile needs.</p><div class="price-row"><span class="price">Rs. 2,000</span><button class="btn buy" onclick="order('Fast Charger','2000')">Order Now</button></div></div></article>
+        <article class="product"><div class="product-visual"><span class="tag">Popular</span><span class="emoji">🎧</span></div><div class="product-body"><h3>MARK-1 Handsfree</h3><p>Enjoy your music and calls with a practical everyday handsfree.</p><div class="price-row"><span class="price">Rs. 545</span><button class="btn buy" onclick="order('MARK-1 Handsfree','545')">Order Now</button></div></div></article>
+        <article class="product"><div class="product-visual"><span class="tag">Travel Essential</span><span class="emoji">🔋</span></div><div class="product-body"><h3>Power Bank</h3><p>Extra power for busy days and travel when you need it.</p><div class="price-row"><span class="price">Rs. 2,500</span><button class="btn buy" onclick="order('Power Bank','2500')">Order Now</button></div></div></article>
+      </div>
+    </section>
+    <div class="features"><div class="features-inner">
+      <div class="feature"><div class="feature-icon">💵</div><div><strong>Cash on Delivery</strong><span>Ask us about delivery options in your area.</span></div></div>
+      <div class="feature"><div class="feature-icon">💬</div><div><strong>Easy WhatsApp Orders</strong><span>Message us directly to place an order.</span></div></div>
+      <div class="feature"><div class="feature-icon">🚚</div><div><strong>Delivery Support</strong><span>We’ll confirm delivery cost before dispatch.</span></div></div>
+    </div></div>
+    <section id="about"><div class="about"><div><span class="kicker">Why IJ Mobile Store?</span><h2 style="font-size:34px;letter-spacing:-1px;margin:12px 0">Useful tech, made simple.</h2><p style="color:var(--muted);line-height:1.8">We’re here to help you find everyday mobile accessories at fair prices. Browse our products and message us for availability, delivery charges, and order details.</p><ul class="about-list" style="color:var(--ink)"><li>Clear prices on listed products</li><li>Direct communication before ordering</li><li>Convenient ordering through WhatsApp</li></ul></div>
+      <div class="about-card"><h3>Need help choosing?</h3><p>Tell us which accessory you need. We’ll confirm product availability, final price, and delivery details with you before you place your order.</p><a class="btn" style="background:white;color:#0757ce" href="https://wa.me/923153528598?text=Assalam-o-Alaikum%2C%20please%20help%20me%20choose%20a%20mobile%20accessory." target="_blank" rel="noopener">Ask on WhatsApp ↗</a></div>
+    </div></section>
+    <section id="contact" style="padding-top:0"><div class="contact"><h2>Ready to order?</h2><p>Contact IJ Mobile Store on WhatsApp to check stock, confirm delivery charges, and place your order.</p><a class="btn" href="https://wa.me/923153528598?text=Assalam-o-Alaikum%2C%20I%20want%20to%20place%20an%20order%20at%20IJ%20Mobile%20Store." target="_blank" rel="noopener">📱 Order on WhatsApp</a></div></section>
+  </main>
+  <footer>© <span id="year"></span> <strong>IJ Mobile Store</strong> · Khairpur Mirs, Pakistan<br><span style="display:inline-block;margin-top:8px">Prices and delivery availability should be confirmed on WhatsApp before ordering.</span></footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    function order(name, price) {
+      const msg = `Assalam-o-Alaikum, I want to order ${name}. Listed price: Rs. ${price}. Please confirm availability and delivery charges.`;
+      window.open('https://wa.me/923153528598?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+    }
+  </script>
+</body>
+</html>
